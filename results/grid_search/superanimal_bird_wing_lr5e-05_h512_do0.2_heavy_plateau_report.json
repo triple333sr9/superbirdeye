@@ -1,0 +1,18 @@
+{
+  "model": "superanimal_bird",
+  "config_name": "wing_lr5e-05_h512_do0.2_heavy_plateau",
+  "avg_mae": 0.026670843983689945,
+  "avg_mae_x": 0.019017379110058148,
+  "avg_mae_y": 0.018656745553016663,
+  "avg_pck_01": 98.36581150690715,
+  "beak_mae_x": 0.022386247292160988,
+  "beak_mae_y": 0.02023232728242874,
+  "vis_accuracy": 97.6722240447998,
+  "training_epochs": 13,
+  "loss_function": "wing",
+  "learning_rate": 5e-05,
+  "weight_decay": 0.0,
+  "hidden_dim": 512,
+  "dropout": 0.2,
+  "augmentation": "heavy"
+}

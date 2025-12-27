@@ -1,0 +1,9 @@
+kpt_shape:
+- 3
+- 3
+names:
+- bird
+nc: 1
+path: C:\Users\jorda\PycharmProjects\CUB_200_2011\yolo_data
+train: train/images
+val: val/images

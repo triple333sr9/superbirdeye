@@ -1,0 +1,64 @@
+================================================================================
+HYPERPARAMETER GRID SEARCH - BEST CONFIGURATIONS REPORT
+================================================================================
+
+OVERALL BEST CONFIGURATION:
+--------------------------------------------------------------------------------
+Model: resnet50
+Config: wing_lr5e-05_h512_do0.2_heavy_plateau
+Loss Function: wing
+Learning Rate: 5e-05
+Weight Decay: 0e+00
+Hidden Dim: 512
+Augmentation: heavy
+Dropout: 0.2
+
+Results:
+  Average MAE: 0.0211
+  Average MAE X: 0.0140
+  Average MAE Y: 0.0157
+  Beak MAE X: 0.0142
+  PCK@0.1: 99.46%
+
+BEST FOR BEAK X-AXIS:
+--------------------------------------------------------------------------------
+Model: resnet50
+Config: wing_lr5e-05_h512_do0.2_medium_plateau
+Loss Function: wing
+Learning Rate: 5e-05
+Weight Decay: 0e+00
+Beak MAE X: 0.0138
+
+BEST CONFIGURATION PER MODEL:
+--------------------------------------------------------------------------------
+
+DENSENET:
+  Config: wing_lr5e-05_h512_do0.2_medium_plateau
+  Avg MAE: 0.0212
+  Beak MAE X: 0.0141
+  PCK@0.1: 99.27%
+
+RESNET50:
+  Config: wing_lr5e-05_h512_do0.2_heavy_plateau
+  Avg MAE: 0.0211
+  Beak MAE X: 0.0142
+  PCK@0.1: 99.46%
+
+SUPERANIMAL_BIRD:
+  Config: wing_lr5e-05_h512_do0.2_heavy_plateau
+  Avg MAE: 0.0267
+  Beak MAE X: 0.0224
+  PCK@0.1: 98.37%
+
+================================================================================
+HYPERPARAMETER RECOMMENDATIONS:
+================================================================================
+
+Based on the grid search results:
+
+- Best Loss Function: wing
+- Best Learning Rate: 5e-05
+- Best Weight Decay: 0e+00
+- Best Hidden Dimension: 512
+- Best Augmentation: heavy
+- Best Dropout: 0.2
