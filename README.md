@@ -5,6 +5,16 @@ This repository was used to train a model that when given an image of a bird, ca
 
 ### Environment
 ##### Data set : CUB-200-2011
+Citation: 
+
+@techreport{WahCUB_200_2011,
+	Title = ,
+	Author = {Wah, C. and Branson, S. and Welinder, P. and Perona, P. and Belongie, S.},
+	Year = {2011}
+	Institution = {California Institute of Technology},
+	Number = {CNS-TR-2011-001}
+}
+
 ##### Structure: Pytorch
 ##### Programing language: Python 3.13.9
 
